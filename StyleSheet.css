@@ -1,0 +1,118 @@
+nav {
+   
+    text-decoration: none;
+    text-align: center;
+    background: #CCCCCC;
+}
+
+nav li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin: 5% 5% 40px 5%;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+#image1 {
+    width: 90%; 
+    height: 300px;
+    background: #CCCCCC;
+    border: 4px solid black; 
+    margin-left: 30px;
+    text-align: center;  
+}
+
+
+#photogal {
+    text-align: center;
+}
+
+
+
+.nextImage {
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+    background: #CCCCCC;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px 10px 40px 0;
+}
+
+#specials {
+    text-align: center;
+    border: 3px solid black;
+    display: inline-block;
+    padding: 5px;
+    float: right;
+}
+
+.dow {
+    padding: 30px;
+    border: 3px solid #CCCCCC; 
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 5px;
+    background: #CCCCCC;
+}
+
+.content {
+    width: 800px;
+    height: 600px;
+    border: 3px solid #CCCCCC;
+    margin-left: 250px;
+    text-align: center;
+    background: #CCCCCC;
+    border-radius: 20px;
+    
+}
+
+p {
+    text-align: center;
+    font-size: 3em;
+}
+
+.profile {
+    width: 80%;
+    height: 300px;
+    border: 3px solid #CCCCCC;
+    margin: 0 0 15px 7%;
+    background: #CCCCCC;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.picLeft {
+    text-align: left;
+    width: 200px;
+    height: 200px;
+    background: #808080;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+}
+
+.picRight {
+    width: 400px;
+    height: 300px;
+    background: #808080;
+    border-radius: 15px;
+    text-align: center;
+    float: right;
+}
+
+
+#contact_info {
+    font-size: 2em;
+}
+
+#social_icons {
+    text-align: center;
+    margin-bottom: 300px;
+}
