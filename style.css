@@ -55,7 +55,7 @@ body {
 	color: #fff;	
 }	
 
-.current-menu-item > a, .current-menu-parent > a {
+.current-menu-item > a, .current-menu-parent > a {  /*sets the active menu items color*/
 	background: #000;	
 }
 .current-menu-parent li a {
