@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="<?php bloginfo('template_directory');?>/../assets/ico/favicon.ico">  <!--this is where you link to the favicon-->
 
-    <title>    <!--will display the name of the page with a bar then followed by the URL-->
-    <?php wp_title( '|', TRUE, 'right'); ?>
+     <!--will display the name of the page with a bar then followed by the URL-->
+    <title>    
+    <?php wp_title( '|', true, 'right'); ?>
     <?php bloginfo( 'name' )?>
     </title>
 
