@@ -46,5 +46,6 @@ Template Name: One Page Theme
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
       </div>
+        </div>
 
 <?php get_footer(); ?>

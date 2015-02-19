@@ -7,6 +7,7 @@
 ?>
 <?php
 	global $post;
+    get_header();
 ;?>
 <article id="<?php echo $post->post_name; ?>" <?php post_class(); ?>>
 	<header class="entry-header">
