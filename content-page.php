@@ -29,4 +29,3 @@
 </article><!-- #post-## -->
       </div>
 
-<?php get_footer(); ?>
