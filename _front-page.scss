@@ -1,0 +1,52 @@
+.admin-bar .navbar-fixed-top {
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .sub-menu {
+    display: none;
+    position: absolute;
+    background: #222;
+    padding: 10px 15px;
+    width: 200px;
+  }
+  li:hover .sub-menu {
+    display: block;
+  }
+}
+
+.sub-menu {
+  li {
+    margin-bottom: 10px;
+    list-style: none;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  a {
+    color: #999;
+    text-decoration: none;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.current-menu-item > a {
+  /*sets the active menu items color*/
+  background: #000;
+}
+
+.current-menu-parent {
+  > a {
+    /*sets the active menu items color*/
+    background: #000;
+  }
+  li a {
+    background: inherit;
+  }
+  .current-menu-item a {
+    color: #fff;
+    font-weight: bold;
+  }
+}
