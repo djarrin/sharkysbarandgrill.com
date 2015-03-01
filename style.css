@@ -18,7 +18,7 @@ body {
   padding-bottom: 20px; }
 
 .site-container {
-  margin: 100px; }
+  margin: 0 20% 0 20%; }
 
 [class*="bg__"] {
   height: 50vh;
@@ -82,5 +82,17 @@ body {
 .current-menu-parent .current-menu-item a {
   color: #fff;
   font-weight: bold; }
+
+.menu-background {
+  background-image: url("images/menu_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: -5px 5px 5px #3C3C3C; }
+
+.menu-text {
+  padding: 50px; }
+
+#food {
+  background-image: url("images/dark_wood.png"); }
 
 /*# sourceMappingURL=style.css.map */

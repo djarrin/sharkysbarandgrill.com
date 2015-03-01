@@ -9,8 +9,8 @@ Template Name: One Page Theme
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container">
-          
+        <div class="container">
+               <center><h1>Sharkys Bar and Grill</h1></center>
           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -51,6 +51,7 @@ Template Name: One Page Theme
             
       </div>
     </div>
+        <div class="site-container">
             <?php 
                 $args = array(
                     'post_type' => 'page',
@@ -63,6 +64,7 @@ Template Name: One Page Theme
             <?php get_template_part( 'content', 'page' ); ?>
 
             <?php endwhile; endif; ?>
+        </div>
 <?php get_footer(); ?>
     
 

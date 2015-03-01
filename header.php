@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="<?php bloginfo('template_directory');?>/../assets/ico/favicon.ico">  <!--this is where you link to the favicon-->
-
+    <link href='http://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'> <!--H1 jumbotron font-->
      <!--will display the name of the page with a bar then followed by the URL-->
     <title>    
     <?php wp_title( '|', true, 'right'); ?>
@@ -13,7 +13,7 @@
     </title>
 
     <?php wp_head(); ?>
-
+    
   </head>
 
   <body <?php body_class(); ?>>

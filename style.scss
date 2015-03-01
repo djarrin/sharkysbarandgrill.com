@@ -21,9 +21,11 @@ body {
   padding-bottom: 20px;
 }
 
-.site-container {
-    margin: 100px;
+.site-container  {
+    margin: 0 20% 0 20%;
 }
+
 
 @import 'parallax-page';
 @import 'front-page';
+@import 'food-page';
