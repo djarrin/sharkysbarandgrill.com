@@ -3,10 +3,15 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-shadow: -5px 5px 5px #3C3C3C;
+    margin: 0 10% 0 10%;
+    padding: 0 5% 0 5%;
 }
 
 .menu-text {
-    padding: 50px;
+    padding: 25px;
+    ul li{
+        list-style: none;    
+    }
 }
 
 #food {

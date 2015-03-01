@@ -1,0 +1,13 @@
+#drinks {
+    background-image: url("images/sharkys-tap1.png");
+    background-repeat: no-repeat;
+   background-repeat:no-repeat;
+
+   background-size:100% ;
+}
+
+@media (max-width: 1292px) {  /*covers the screen with the background image when screen gets too small*/
+#drinks {
+    background-size: cover;
+}
+}
