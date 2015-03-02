@@ -36,8 +36,10 @@ body {
 .bg__foo {
   background-image: url(http://farm4.static.flickr.com/3394/3220637160_6649983dbd.jpg); }
 
-.bg__bar {
-  background-image: url(http://webdesigneraid.com/wp-content/uploads/2013/03/VUBTI25.jpg); }
+.bg__drinkFood {
+  background-image: url(http://webdesigneraid.com/wp-content/uploads/2013/03/VUBTI25.jpg);
+  margin-top: 2%;
+  /*seprates the drinks menu from the parallax image*/ }
 
 .bg__baz {
   background-image: url(images/brickwall.png); }
@@ -91,7 +93,7 @@ body {
   /*gets rid of the gradient backgrounds for carousel*/
   background-image: none; }
 
-.menu-background {
+.menu-food-background {
   background-image: url("images/menu_background.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -99,13 +101,28 @@ body {
   margin: 0 10% 0 10%;
   padding: 0 5% 0 5%; }
 
-.menu-text {
+.menu-food-text {
   padding: 25px; }
-  .menu-text ul li {
+  .menu-food-text ul li {
     list-style: none; }
 
 #food {
   background-image: url("images/dark_wood.png"); }
+
+.menu-drinks-background {
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
+  margin: 0 10% 0 10%;
+  padding: 0 5% 5% 5%;
+  border-radius: 15px; }
+
+.menu-drinks-text {
+  color: black;
+  text-shadow: 1px 1px #CCCCCC;
+  padding: 25px; }
 
 #drinks {
   background-image: url("images/sharkys-tap1.png");
