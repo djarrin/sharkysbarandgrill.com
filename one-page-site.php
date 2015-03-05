@@ -22,13 +22,13 @@ Template Name: One Page Theme
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <center><img src="http://localhost:85/sharkysbarandgrill/wp-content/uploads/2015/03/sharkysSign.png" alt="..."></center>
-    </div>
-    <div class="item">
-      <center><img src="http://localhost:85/sharkysbarandgrill/wp-content/uploads/2015/03/sharkys_street.png" alt="..."></center>
-    </div>
-    <div class="item">
       <center><img src="http://localhost:85/sharkysbarandgrill/wp-content/uploads/2015/03/DiningRoom1.png" alt="..."></center>
+    </div>
+    <div class="item">
+      <center><img src="http://localhost:85/sharkysbarandgrill/wp-content/uploads/2015/03/sharkys-tap.png" alt="..."></center>
+    </div>
+    <div class="item">
+      <center><img src="http://localhost:85/sharkysbarandgrill/wp-content/uploads/2015/03/sharkys-sign-outside.png" alt="..."></center>
     </div>
   </div>
 
