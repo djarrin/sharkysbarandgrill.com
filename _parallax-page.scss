@@ -1,6 +1,6 @@
 // setting base styles to image containers
 [class*="bg__"] {
-  height: 50vh;
+  height: 65vh;
 
   text-indent: -9999px;
 
@@ -23,18 +23,20 @@
   background-image: url(
     "images/sharkys-tap1.png"
   );
+
 }
 
 .bg__drinkFood {
   background-image: url(
-    http://localhost:85/sharkysbarandgrill/wp-content/uploads/2015/03/pagota1.png
+    images/brick-background2.png
   );
   margin-top: 2%;  /*seprates the drinks menu from the parallax image*/
+
 }
 
-.bg__baz {
+.bg__foodevent {
   background-image: url(
-    images/brickwall.png
+    images/pagoda-night.JPG
   );
 }
 
