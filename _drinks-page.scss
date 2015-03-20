@@ -24,6 +24,10 @@
    background-repeat:no-repeat;
    box-shadow: 0 -5px 3px #888888;
    background-size:100% ;
+
+   .site-container {
+    padding: 20px 0 20px 0;
+   }
 }
 
 @media (max-width: 1292px) {  /*covers the screen with the background image when screen gets too small*/

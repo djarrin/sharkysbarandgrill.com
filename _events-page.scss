@@ -1,5 +1,8 @@
 .event-box {
-    margin: 20px 0 20px 0;
+    padding: 20px 0 20px 0;
+    img {
+        width: 150px;
+        }
 }
 
 .box-0 {
@@ -18,4 +21,8 @@
 #events-3 {   /*has to be events-3 because I deleted 2 other events pages*/
     background-image: url("images/grey_wash_wall.png");
     background-repeat: repeat;
+
+    .site-container {
+        padding: 20px;
+    }
 }

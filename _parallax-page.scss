@@ -1,6 +1,6 @@
 // setting base styles to image containers
 [class*="bg__"] {
-  height: 65vh;
+  height: 55vh;
 
   text-indent: -9999px;
 
@@ -19,9 +19,9 @@
   }
 }
 
-.bg__foo {
+.bg__homeMenu {
   background-image: url(
-    "images/sharkys-tap1.png"
+    url("images/brickwall.png")
   );
 
 }
