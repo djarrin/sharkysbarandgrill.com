@@ -222,6 +222,8 @@ article {
 #find-us-3 {
   background-image: url("images/grunge_wall_@2X.png");
   background-repeat: repeat; }
+  #find-us-3 h2 {
+    padding-top: 10px; }
   #find-us-3 p {
     font-size: 20px; }
   #find-us-3 .site-container {
