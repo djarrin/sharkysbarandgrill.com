@@ -1,5 +1,11 @@
 #menu {
     background-image: url("images/brickwall.png");
     background-repeat: repeat;
-    
+}
+
+.menu-text {
+    font-size: 20px;
+    p {
+        padding-bottom: 10px;
+    }
 }

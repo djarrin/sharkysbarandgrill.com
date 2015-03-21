@@ -121,7 +121,14 @@ article {
 .menu-food-text {
   padding: 25px; }
   .menu-food-text ul li {
-    list-style: none; }
+    list-style: none;
+    font-size: 20px; }
+  .menu-food-text h3 {
+    font-size: 26px;
+    font-weight: 700; }
+  .menu-food-text h2 {
+    font-size: 36px;
+    font-weight: 700; }
 
 #food {
   background-image: url("images/dark_wood.png"); }
@@ -141,7 +148,15 @@ article {
 .menu-drinks-text {
   color: black;
   text-shadow: 1px 1px #CCCCCC;
-  padding: 25px; }
+  padding: 25px;
+  font-size: 20px; }
+  .menu-drinks-text ul {
+    text-align: center;
+    list-style: none;
+    padding-left: -5px; }
+    .menu-drinks-text ul li {
+      padding: 10px;
+      padding-left: -5px; }
 
 #drinks {
   background-image: url("images/sharkys-tap1.png");
@@ -161,14 +176,33 @@ article {
   background-repeat: repeat;
   box-shadow: 0px 5px 5px #262626 inset; }
 
+.home-text {
+  font-size: 20px; }
+  .home-text h1 {
+    padding-top: 10px; }
+  .home-text h4 {
+    font-size: 28px; }
+
 #menu {
   background-image: url("images/brickwall.png");
   background-repeat: repeat; }
 
+.menu-text {
+  font-size: 20px; }
+  .menu-text p {
+    padding-bottom: 10px; }
+
 .event-box {
-  padding: 20px 0 20px 0; }
+  padding: 20px 5px 20px 5px;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #929292;
+  border-radius: 15px; }
+  .event-box h3 {
+    text-align: center; }
   .event-box img {
-    width: 150px; }
+    width: 200px; }
 
 .box-0 img {
   float: left; }
@@ -180,12 +214,16 @@ article {
   /*has to be events-3 because I deleted 2 other events pages*/
   background-image: url("images/grey_wash_wall.png");
   background-repeat: repeat; }
+  #events-3 h2 {
+    color: #B8B8B8; }
   #events-3 .site-container {
     padding: 20px; }
 
 #find-us-3 {
   background-image: url("images/grunge_wall_@2X.png");
   background-repeat: repeat; }
+  #find-us-3 p {
+    font-size: 20px; }
   #find-us-3 .site-container {
     padding: 30px 0 30px 0; }
 
