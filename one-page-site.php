@@ -8,9 +8,9 @@ Template Name: One Page Theme
 
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-          
+    <div class="jumbotron" id="jumbo">
+        <div class="container">
+               <center><h1>Sharkys Bar and Grill</h1></center>
           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -22,18 +22,14 @@ Template Name: One Page Theme
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="http://localhost:85/sharkysbarandgrill/wp-content/uploads/2015/02/sharkysSign.png" alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
+      <center><img src="http://localhost:85/sharkysbarandgrill/wp-content/uploads/2015/03/DiningRoom1.png" alt="..."></center>
     </div>
     <div class="item">
-      <center><img src="http://localhost:85/sharkysbarandgrill/wp-content/uploads/2015/02/sharkysSign.png" alt="..."></center>
-      <div class="carousel-caption">
-        ...
-      </div>
+      <center><img src="http://localhost:85/sharkysbarandgrill/wp-content/uploads/2015/03/sharkys-tap.png" alt="..."></center>
     </div>
-    ...
+    <div class="item">
+      <center><img src="http://localhost:85/sharkysbarandgrill/wp-content/uploads/2015/03/sharkys-sign-outside.png" alt="..."></center>
+    </div>
   </div>
 
   <!-- Controls -->
@@ -51,6 +47,7 @@ Template Name: One Page Theme
             
       </div>
     </div>
+        
             <?php 
                 $args = array(
                     'post_type' => 'page',
@@ -63,6 +60,7 @@ Template Name: One Page Theme
             <?php get_template_part( 'content', 'page' ); ?>
 
             <?php endwhile; endif; ?>
+        </div>
 <?php get_footer(); ?>
     
 

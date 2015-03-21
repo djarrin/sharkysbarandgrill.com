@@ -1,0 +1,15 @@
+#home {
+    background-image: url("images/brickwall.png");
+    background-repeat: repeat;
+    box-shadow:0px 5px 5px #262626 inset;
+}
+
+.home-text {
+    font-size: 20px;
+    h1 {
+        padding-top: 10px;
+    }
+    h4 {
+        font-size: 28px;
+    }
+}

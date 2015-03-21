@@ -1,6 +1,6 @@
 // setting base styles to image containers
 [class*="bg__"] {
-  height: 50vh;
+  height: 55vh;
 
   text-indent: -9999px;
 
@@ -19,21 +19,24 @@
   }
 }
 
-.bg__foo {
+.bg__homeMenu {
   background-image: url(
-    http://farm4.static.flickr.com/3394/3220637160_6649983dbd.jpg
+    url("images/brickwall.png")
   );
+
 }
 
-.bg__bar {
+.bg__drinkFood {
   background-image: url(
-    http://webdesigneraid.com/wp-content/uploads/2013/03/VUBTI25.jpg
+    images/brick-background2.png
   );
+  margin-top: 2%;  /*seprates the drinks menu from the parallax image*/
+
 }
 
-.bg__baz {
+.bg__foodevent {
   background-image: url(
-    images/brickwall.png
+    images/pagoda-night.JPG
   );
 }
 

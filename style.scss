@@ -18,12 +18,36 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 body {
   padding-top: 50px;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/  
+}
+.entry-title {
+    display: none;
+}
+.site-container  {
+    margin: 0 20% 0 20%;
+}
+article {
+    margin-bottom: -10px;
 }
 
-.site-container {
-    margin: 100px;
+#footer-style {
+    background-image: url("images/debut_dark.png");
+    background-repeat: repeat;
+   bottom: 0;
+
+   padding: 0 10px;
+   width: 100%;
+   overflow:hidden
+}
+#footer {
+
 }
 
 @import 'parallax-page';
 @import 'front-page';
+@import 'food-page';
+@import 'drinks-page';
+@import 'home-page';
+@import 'menu-page';
+@import 'events-page';
+@import 'findUs-page';

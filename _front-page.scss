@@ -40,7 +40,7 @@
 .current-menu-parent {
   > a {
     /*sets the active menu items color*/
-    background: #000;
+    background: #4C4C4C;
   }
   li a {
     background: inherit;
@@ -49,4 +49,17 @@
     color: #fff;
     font-weight: bold;
   }
+}
+
+#jumbo {                   /*sets the carosel background*/
+    background-image: url("images/wood_1.png");
+}
+
+.carousel-control.left, .carousel-control.right {  /*gets rid of the gradient backgrounds for carousel*/
+    background-image: none
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    
 }

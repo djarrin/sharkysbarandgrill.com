@@ -1,0 +1,33 @@
+.menu-food-background {
+    background-image: url("images/menu_background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: -5px 5px 5px #3C3C3C;
+    margin: 0 10% 20px 10%;
+    padding: 20px 5% 0 5%;
+}
+
+.menu-food-text {
+    padding: 25px;
+    ul li{
+        list-style: none;  
+        font-size: 20px;
+    }
+    h3 {
+      font-size: 26px;
+      font-weight: 700;
+    }
+    h2 {
+      font-size: 36px;
+      font-weight: 700;
+    }
+}
+
+#food {
+    background-image: url("images/dark_wood.png");
+    
+    .site-container {
+        padding: 10px;
+    }
+}
+
