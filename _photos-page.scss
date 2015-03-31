@@ -1,0 +1,15 @@
+#photos {
+    background-image: url("images/zwartevilt.png");
+    background-repeat: repeat;
+    padding-top: 20px;
+    h2 {
+        color: #E6E6E6;
+    }
+    .wc-gallery-captions-onhover .gallery-caption {
+        background-image: url("images/zwartevilt.png");
+        background-repeat: repeat;
+        p {
+            text-align: center;
+        }
+    }
+}

@@ -115,14 +115,15 @@ article {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   box-shadow: -5px 5px 5px #3C3C3C;
-  margin: 0 10% 20px 10%;
-  padding: 20px 5% 0 5%; }
+  margin-bottom: 20px;
+  padding-top: 20px; }
 
 .menu-food-text {
   padding: 25px; }
   .menu-food-text ul li {
     list-style: none;
-    font-size: 20px; }
+    font-size: 18px;
+    padding-bottom: 5px; }
   .menu-food-text h3 {
     font-size: 26px;
     font-weight: 700; }
@@ -228,5 +229,17 @@ article {
     font-size: 20px; }
   #find-us-3 .site-container {
     padding: 30px 0 30px 0; }
+
+#photos {
+  background-image: url("images/zwartevilt.png");
+  background-repeat: repeat;
+  padding-top: 20px; }
+  #photos h2 {
+    color: #E6E6E6; }
+  #photos .wc-gallery-captions-onhover .gallery-caption {
+    background-image: url("images/zwartevilt.png");
+    background-repeat: repeat; }
+    #photos .wc-gallery-captions-onhover .gallery-caption p {
+      text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
