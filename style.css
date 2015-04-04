@@ -136,6 +136,18 @@ article {
   #food .site-container {
     padding: 10px; }
 
+@media (max-width: 320px) {
+  #food .site-container {
+    margin: 0 10px 0 10px; } }
+@media (min-width: 320px) and (max-width: 480px) {
+  #food .site-container {
+    margin: 0 10px 0 10px; } }
+@media (min-width: 481px) and (max-width: 768px) {
+  #food .site-container {
+    margin: 0 25px 0 25px; } }
+@media (min-width: 769px) and (max-width: 960px) {
+  #food .site-container {
+    margin: 0 45px 0 45px; } }
 .menu-drinks-background {
   background-color: #ffffff;
   border: 1px solid black;
@@ -154,7 +166,7 @@ article {
   .menu-drinks-text ul {
     text-align: center;
     list-style: none;
-    padding-left: -5px; }
+    padding-left: 0px; }
     .menu-drinks-text ul li {
       padding: 10px;
       padding-left: -5px; }
@@ -168,6 +180,18 @@ article {
   #drinks .site-container {
     padding: 20px 0 20px 0; }
 
+@media (max-width: 320px) {
+  #drinks .site-container {
+    margin: 10px; } }
+@media (min-width: 320px) and (max-width: 480px) {
+  #drinks .site-container {
+    margin: 10px; } }
+@media (min-width: 481px) and (max-width: 768px) {
+  #drinks .site-container {
+    margin: 0 25px 0 25px; } }
+@media (min-width: 769px) and (max-width: 960px) {
+  #drinks .site-container {
+    margin: 0 45px 0 45px; } }
 @media (max-width: 1292px) {
   /*covers the screen with the background image when screen gets too small*/
   #drinks {
@@ -220,6 +244,18 @@ article {
   #events-3 .site-container {
     padding: 20px; }
 
+@media (max-width: 320px) {
+  #events-3 .site-container {
+    margin: 0 10px 0 10px; } }
+@media (min-width: 320px) and (max-width: 480px) {
+  #events-3 .site-container {
+    margin: 0 10px 0 10px; } }
+@media (min-width: 481px) and (max-width: 768px) {
+  #events-3 .site-container {
+    margin: 0 25px 0 25px; } }
+@media (min-width: 769px) and (max-width: 960px) {
+  #events-3 .site-container {
+    margin: 0 45px 0 45px; } }
 #find-us-3 {
   background-image: url("images/grunge_wall_@2X.png");
   background-repeat: repeat; }
@@ -230,6 +266,18 @@ article {
   #find-us-3 .site-container {
     padding: 30px 0 30px 0; }
 
+@media (max-width: 320px) {
+  #find-us-3 .site-container {
+    margin: 0 10px 0 10px; } }
+@media (min-width: 320px) and (max-width: 480px) {
+  #find-us-3 .site-container {
+    margin: 0 10px 0 10px; } }
+@media (min-width: 481px) and (max-width: 768px) {
+  #find-us-3 .site-container {
+    margin: 0 25px 0 25px; } }
+@media (min-width: 769px) and (max-width: 960px) {
+  #find-us-3 .site-container {
+    margin: 0 25px 0 25px; } }
 #photos {
   background-image: url("images/zwartevilt.png");
   background-repeat: repeat;

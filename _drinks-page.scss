@@ -18,7 +18,7 @@
     ul {
         text-align: center;
         list-style: none;
-        padding-left: -5px;
+        padding-left: 0px;
         li {
             padding: 10px;
             padding-left: -5px;
@@ -38,6 +38,30 @@
    .site-container {
     padding: 20px 0 20px 0;
    }
+}
+
+@media  (max-width: 320px) {
+    #drinks .site-container {
+        margin: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #drinks .site-container {
+        margin: 10px;
+    }
+}
+ 
+@media  (min-width: 481px) and (max-width: 768px)  {
+    #drinks .site-container {
+        margin: 0 25px 0 25px;
+    }
+}
+
+@media  (min-width: 769px) and (max-width: 960px)  {
+    #drinks .site-container {
+        margin: 0 45px 0 45px;
+    }
 }
 
 @media (max-width: 1292px) {  /*covers the screen with the background image when screen gets too small*/
