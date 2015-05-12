@@ -12,6 +12,24 @@
 
   /* Scale it nicely to the element */
   background-size: cover;
+  @media  (max-width: 320px) {
+  backgorund-size: 25% 25%;
+}
+
+@media (min-width: 320px) and (max-width: 480px)
+  {
+    height: 0vh;
+  }
+ 
+  @media (min-width: 481px) and (max-width: 768px)
+  {
+    height: 0vh;
+  }
+
+    @media  (min-width: 769px)  and (max-width: 960px)
+  {
+    height: 0vh;
+  }
 
   /* just make it look a bit better ;) */
   &:nth-child(2n) {

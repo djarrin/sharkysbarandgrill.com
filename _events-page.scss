@@ -1,16 +1,17 @@
 .event-box {
-    padding: 20px 5px 20px 5px;
+    padding: 30px 5px 30px 5px;
     font-size: 20px;
     border-style: solid;
     border-width: 2px;
     background-color: #929292;
     border-radius: 15px;
+    box-shadow: 0 0 20px black;
     h3 {
         text-align: center;
     }
     img {
-        width: 200px;
-        }
+        margin: 10px;
+    }
 }
 
 .box-0 {
@@ -61,3 +62,31 @@
         margin: 0 45px 0 45px;
     }
   }
+
+@media (max-width: 320px) {
+    .event-box img {
+       float: none;
+       margin-left: 25%;
+       margin-right: auto;
+       text-align: center;
+    }
+}
+
+@media  (min-width: 320px) and (max-width: 480px){
+    .event-box img {
+       float: none;
+       margin-left: 25%;
+       margin-right: auto;
+       text-align: center;
+    }
+  }
+ 
+@media (min-width: 481px) and (max-width: 768px){
+    .event-box img {
+       float: none;
+       margin-left: 25%;
+       margin-right: auto;
+       text-align: center;
+    }
+}
+
