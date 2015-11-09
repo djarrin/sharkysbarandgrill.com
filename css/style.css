@@ -1,0 +1,61 @@
+/*
+Error: Invalid CSS after "50px": expected expression (e.g. 1px, bold), was ";"
+        on line 17 of css/style.css
+
+12: This theme, like WordPress, is licensed under the GPL.
+13: Use it to make something cool, have fun, and share what you've learned with others.
+14: *\/
+15: /*This is the base scss file that is used to compile into style.css*\/
+16: body {
+17:   padding-top: 50px;
+18:   /*padding-bottom: 20px;*\/ }
+19: 
+20: .entry-title {
+21:   display: none; }
+22: 
+
+Backtrace:
+css/style.css:17
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1162:in `expected'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/script/lexer.rb:221:in `expected!'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/script/parser.rb:600:in `assert_done'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/script/parser.rb:63:in `parse'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/script/parser.rb:183:in `parse'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/script.rb:27:in `parse'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:1130:in `parse_script'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:720:in `parse_property'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:691:in `parse_property_or_rule'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:657:in `parse_line'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:535:in `build_tree'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:554:in `block in append_children'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:553:in `each'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:553:in `append_children'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:544:in `block in build_tree'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:537:in `each'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:537:in `build_tree'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:554:in `block in append_children'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:553:in `each'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:553:in `append_children'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:406:in `_to_tree'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/engine.rb:295:in `render_with_sourcemap'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `each'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:293:in `watch'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/plugin.rb:108:in `method_missing'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:384:in `watch_or_update'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:51:in `process_result'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/exec/base.rb:52:in `parse'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/lib/sass/exec/base.rb:19:in `parse!'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.18/bin/sass:13:in `<top (required)>'
+c:/Ruby200-x64/bin/sass:23:in `load'
+c:/Ruby200-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"50px\": expected expression (e.g. 1px, bold), was \";\"\A         on line 17 of css/style.css\A \A 12: This theme, like WordPress, is licensed under the GPL.\A 13: Use it to make something cool, have fun, and share what you've learned with others.\A 14: */\A 15: /*This is the base scss file that is used to compile into style.css*/\A 16: body {\A 17:   padding-top: 50px;\A 18:   /*padding-bottom: 20px;*/ }\A 19: \A 20: .entry-title {\A 21:   display: none; }\A 22: "; }
+
+/*# sourceMappingURL=style.css.map */
