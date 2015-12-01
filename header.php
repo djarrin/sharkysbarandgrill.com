@@ -33,31 +33,37 @@
       page: '/#',
       title: 'Home'
     });
+    ga('send', 'pageview', '/#');
    ga('set', {
       page: '/#menu',
       title: 'Menu'
     });
+   ga('send', 'pageview', '/#menu');
    ga('set', {
       page: '/#drinks',
       title: 'Drinks'
     });
+   ga('send', 'pageview', '/#drinks');
    ga('set', {
       page: '/#food',
       title: 'Food'
     });
+   ga('send', 'pageview', '/#food');
    ga('set', {
       page: '/#events-3',
       title: 'Events'
-    }); 
+    });
+    ga('send', 'pageview', '/#events-3'); 
    ga('set', {
       page: '/#find-us-3',
       title: 'Find-Us'
     });
+   ga('send', 'pageview', '/#find-us-3'); 
    ga('set', {
       page: '/#photos',
       title: 'Photos'
     });                            
-    ga('send', 'pageview');
+    ga('send', 'pageview', '/#photos');
     </script>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container ">
